@@ -1,6 +1,7 @@
 # System Requirements
 * Linux (Windows will NOT work, Mac I don't know)
 * QT Creator (optional)
+* setsid
 * OpenSSH/LibreSSH/Something-SSH (just needs to have the "ssh" binary)
 configured to use a KEY protected with a PASSPHRASE (which you will have to enter into the Android app!)
 * Static LAN ip on your computer (look at /etc/network/interfaces)
