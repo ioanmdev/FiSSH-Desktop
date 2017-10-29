@@ -1,6 +1,6 @@
 # System Requirements
 * Linux (Windows will NOT work, Mac I don't know)
-* QT Creator
+* QT Creator (optional)
 * OpenSSH/LibreSSH/Something-SSH (just needs to have the "ssh" binary)
 configured to use a KEY protected with a PASSPHRASE (which you will have to enter into the Android app!)
 * Static LAN ip on your computer (look at /etc/network/interfaces)
@@ -14,7 +14,7 @@ Install the FiSSH android app on your phone and configure it with your computer'
 Create a new directory: /opt/FiSSH
 
 - Step 3
-Build FiSSH-Desktop in QT Creator (in Release mode) and copy the resulting binary to /opt/FiSSH, so the program can be run using the command /opt/FiSSH/FiSSH
+Either build FiSSH-Desktop in QT Creator (in Release mode) or download the precompiled binary (from https://github.com/ioanmoldovan/FiSSH-Desktop/blob/master/bin/Release/FiSSH) and copy the program to /opt/FiSSH, so that it can be run using the command /opt/FiSSH/FiSSH
 
 - Step 4
 Generate the SSL certificate (that will be used for encryption of messages between Android and PC apps):
@@ -32,12 +32,12 @@ export SSH_ASKPASS="/opt/FiSSH/FiSSH"
 setsid ssh $@
 ```
 
-- Step 6
+- Step 6 (optional)
 Add the alias to .bashrc
 
 ```bash
 alias ssh='fissh'
 ```
 
-# That was easy! :D (just a joke)
+# That was easy! :D (hopefully my joke made you laugh)
 
