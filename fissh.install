@@ -1,5 +1,5 @@
 post_install () {
-    openssl req -newkey rsa:4096 -nodes -keyout /opt/FiSSH/key.pem -x509 -days 36500 -out /opt/FiSSH/certificate.pem -subj "CN=FiSSH"
+    openssl req -newkey rsa:4096 -nodes -keyout /opt/FiSSH/key.pem -x509 -days 36500 -out /opt/FiSSH/certificate.pem -subj "/CN=FiSSH"
 
     groupadd fissh
     useradd -M -r -g fissh -s /sbin/nologin fissh
