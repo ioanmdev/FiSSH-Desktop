@@ -30,7 +30,7 @@ Install the /usr/bin/fissh script and make it executable
 ```bash
 #!/bin/bash
 export SSH_ASKPASS="/opt/FiSSH/FiSSH"
-setsid ssh $@
+setsid ssh "$@"
 ```
 
 - Step 6 (optional)
