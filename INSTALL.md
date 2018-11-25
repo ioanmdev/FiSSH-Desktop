@@ -21,7 +21,7 @@ Either build FiSSH-Desktop in QT Creator (in Release mode) or download the preco
 Generate the SSL certificate (that will be used for encryption of messages between Android and PC apps):
 
 ```bash
-sudo openssl req -newkey rsa:2048 -nodes -keyout /opt/FiSSH/key.pem -x509 -days 365 -out /opt/FiSSH/certificate.pem
+sudo openssl req -newkey rsa:4096 -nodes -keyout /opt/FiSSH/key.pem -x509 -days 365 -out /opt/FiSSH/certificate.pem
 ```
 
 - Step 5
