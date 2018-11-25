@@ -9,7 +9,7 @@ url='https://git.iodev.science/ioan/FiSSH-Desktop'
 arch=('x86_64')
 license=('MIT')
 
-makedepends=('git','qt5-base')
+makedepends=('git' 'qt5-base')
 
 source=('git+https://git.iodev.science/ioan/FiSSH-Desktop')
 sha256sums=('SKIP')
