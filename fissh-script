@@ -1,0 +1,3 @@
+#!/bin/bash
+export SSH_ASKPASS="/opt/FiSSH/FiSSH"
+setsid ssh "$@"
