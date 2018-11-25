@@ -23,6 +23,8 @@ build () {
 package () {
     cd FiSSH-Desktop
     mkdir -p $pkgdir/opt/FiSSH
+    mkdir -p $pkgdir/usr/bin
+
     cp FiSSH $pkgdir/opt/FiSSH/FiSSH 
     chmod +x $pkgdir/opt/FiSSH/FiSSH
     cp fissh-script $pkgdir/usr/bin/fissh
