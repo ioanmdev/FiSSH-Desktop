@@ -11,8 +11,9 @@ license=('MIT')
 
 makedepends=('git' 'qt5-base')
 
-source=('git+https://git.iodev.science/ioan/FiSSH-Desktop' 'fissh.install')
-sha256sums=('SKIP' '2479aec09908d12d5a6ba0f953aedf39f8c2ae673012a2e59a046adc7f2f5833')
+source=('git+https://git.iodev.science/ioan/FiSSH-Desktop')
+install=('fissh.install')
+sha256sums=('SKIP')
 
 build () {
     cd FiSSH-Desktop

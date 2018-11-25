@@ -15,3 +15,9 @@ post_install () {
     echo "TO BE ABLE TO USE FiSSH YOU NEED TO ADD YOUR USER TO THE fissh GROUP!"
     echo
 }
+
+post_remove () {
+    rm -rf /opt/FiSSH
+    userdel fissh
+    groupdel fissh
+}
