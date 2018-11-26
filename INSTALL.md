@@ -10,7 +10,7 @@ configured to use a KEY protected with a PASSPHRASE (which you will have to ente
 
 ## On Arch Linux
 - Step 1
-Download the "fissh" package from AUR. "makepkg" and install it.
+Download the "fissh" package from AUR (https://aur.archlinux.org/packages/fissh/). "makepkg" and install it.
 
 - Step 2
 Add your user to the "fissh" group, by running "sudo gpasswd -a yourusername fissh"
