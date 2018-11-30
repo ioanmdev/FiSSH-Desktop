@@ -8,6 +8,3 @@ It is important to note that none of the FiSSH apps had access to private key fi
 
 # How to install?
 Please see INSTALL.md
-
-# Credits
-Fingerprint icon created by Freepik (https://www.freepik.com)
