@@ -1,5 +1,5 @@
 # System Requirements
-* Linux (Windows will NOT work, Mac I don't know)
+* Linux
 * QT Creator (optional)
 * setsid
 * OpenSSH/LibreSSH/Something-SSH (just needs to have the "ssh" binary)
