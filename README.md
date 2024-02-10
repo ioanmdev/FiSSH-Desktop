@@ -1,3 +1,5 @@
+# DEPRECATED, KEPT FOR ARCHIVAL PURPOSES
+
 # FiSSH
 SSH authentication via Fingerprint scanning over network (TLS Sockets).
 
