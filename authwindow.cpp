@@ -68,7 +68,7 @@ void AuthWindow::acceptConnection()
   connect(socket, SIGNAL(encrypted()), this, SLOT(handshakeComplete()));
 
   // Fail on ERROR
-  connect(socket, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(connectionFailure()));
+  connect(socket, SIGNAL(errorOccurred(QAbstractSocket::SocketError)), this, SLOT(connectionFailure()));
 
   socket->setPrivateKey(key);
   socket->setLocalCertificate(certificate);
